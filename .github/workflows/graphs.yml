@@ -13,14 +13,13 @@
 # * Docs and more: https://upptime.js.org
 # * More by Anand Chowdhary: https://anandchowdhary.com
 
-
 name: Graphs CI
+
 on:
   schedule:
     - cron: "0 0 * * *"
-  repository_dispatch:
-    types: [graphs]
-  workflow_dispatch:
+  workflow_call:
+
 jobs:
   release:
     name: Generate graphs
@@ -31,6 +30,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
+
       - name: Generate graphs
         uses: upptime/uptime-monitor@v1.40.1
         with:
