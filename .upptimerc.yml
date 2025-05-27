@@ -2,6 +2,7 @@ owner: high-performance-analytics
 repo: hpa-uptime
 
 sites:
+
   - name: WISE [Prod]
     url: https://wise.hpa.ai
     method: GET
@@ -10,7 +11,8 @@ sites:
     maxRedirects: 2
     headers:
       - key: User-Agent
-        value: Mozilla/5.0
+        value: "Mozilla/5.0"
+
   - name: WISE [Staging]
     url: https://wise-dev.hpa.ai
     method: GET
@@ -19,7 +21,8 @@ sites:
     maxRedirects: 2
     headers:
       - key: User-Agent
-        value: Mozilla/5.0
+        value: "Mozilla/5.0"
+
   - name: Google
     url: https://www.google.com
   - name: Wikipedia
