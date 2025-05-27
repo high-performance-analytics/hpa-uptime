@@ -9,7 +9,8 @@ sites:
     ignoreSsl: true
     maxRedirects: 2
     headers:
-      User-Agent: "Mozilla/5.0"
+      - key: User-Agent
+        value: Mozilla/5.0
   - name: WISE [Staging]
     url: https://wise-dev.hpa.ai
     method: GET
@@ -17,7 +18,8 @@ sites:
     ignoreSsl: true
     maxRedirects: 2
     headers:
-      User-Agent: "Mozilla/5.0"
+      - key: User-Agent
+        value: Mozilla/5.0
   - name: Google
     url: https://www.google.com
   - name: Wikipedia
