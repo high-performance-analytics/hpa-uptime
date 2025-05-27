@@ -25,7 +25,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: status.hpa.ai
   baseUrl: /hpa-uptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://hpa.ai/wp-content/themes/wptheme/img/HPA-mathtoinnovate.svg
   name: HPA Uptime Monitor
   introTitle: "**HPA** status and uptime dashboard"
   introMessage: This dashboard shows the real-time availability of HPA services. Powered by [Upptime](https://github.com/upptime/upptime) and GitHub Actions.
