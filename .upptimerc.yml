@@ -5,7 +5,7 @@ cron: "*/5 * * * *"
 
 sites:
 
-  - name: WISE [Prod]
+  - name: WISE [Frontend]
     url: https://wise.hpa.ai
     method: GET
     followRedirects: true
@@ -14,8 +14,8 @@ sites:
     headers:
       - "User-Agent: Mozilla/5.0"
 
-  - name: WISE [Staging]
-    url: https://wise-dev.hpa.ai
+  - name: WISE [Backend]
+    url: https://wise-api.hpa.ai
     method: GET
     followRedirects: true
     insecure: true
