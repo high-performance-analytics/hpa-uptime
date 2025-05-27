@@ -4,8 +4,14 @@ repo: hpa-uptime
 sites:
   - name: WISE [Prod]
     url: https://wise.hpa.ai
+    method: GET
+    followRedirects: true
+    ignoreSsl: true
   - name: WISE [Staging]
     url: https://wise-dev.hpa.ai
+    method: GET
+    followRedirects: true
+    ignoreSsl: true
   - name: Google
     url: https://www.google.com
   - name: Wikipedia
