@@ -1,6 +1,8 @@
 owner: high-performance-analytics
 repo: hpa-uptime
 
+cron: "*/5 * * * *"
+
 sites:
 
   - name: WISE [Prod]
