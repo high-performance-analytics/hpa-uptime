@@ -15,7 +15,7 @@ sites:
       - "User-Agent: Mozilla/5.0"
 
   - name: WISE [Backend]
-    url: https://wise-api.hpa.ai
+    url: https://wise-api.hpa.ai/admin
     method: GET
     followRedirects: true
     insecure: true
