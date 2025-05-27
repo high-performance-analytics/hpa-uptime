@@ -4,19 +4,19 @@
     "url": "https://wise.hpa.ai",
     "icon": "https://icons.duckduckgo.com/ip3/wise.hpa.ai.ico",
     "slug": "wise-frontend",
-    "status": "down",
-    "uptime": "0.01%",
-    "uptimeDay": "0.01%",
-    "uptimeWeek": "0.01%",
-    "uptimeMonth": "0.01%",
-    "uptimeYear": "0.01%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "status": "up",
+    "uptime": "0.32%",
+    "uptimeDay": "0.32%",
+    "uptimeWeek": "0.32%",
+    "uptimeMonth": "0.32%",
+    "uptimeYear": "0.32%",
+    "time": 565,
+    "timeDay": 565,
+    "timeWeek": 565,
+    "timeMonth": 565,
+    "timeYear": 565,
     "dailyMinutesDown": {
-      "2025-05-27": 10
+      "2025-05-27": 44
     }
   },
   {
