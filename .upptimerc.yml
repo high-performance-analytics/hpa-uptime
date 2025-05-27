@@ -10,7 +10,7 @@ sites:
     ignoreSsl: true
     maxRedirects: 2
     headers:
-      - key: User-Agent
+      - key: "User-Agent"
         value: "Mozilla/5.0"
 
   - name: WISE [Staging]
@@ -20,7 +20,7 @@ sites:
     ignoreSsl: true
     maxRedirects: 2
     headers:
-      - key: User-Agent
+      - key: "User-Agent"
         value: "Mozilla/5.0"
 
   - name: Google
