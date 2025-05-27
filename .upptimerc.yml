@@ -7,7 +7,7 @@ sites:
     url: https://wise.hpa.ai
     method: GET
     followRedirects: true
-    ignoreSsl: true
+    insecure: true
     maxRedirects: 2
     headers:
       - "User-Agent: Mozilla/5.0"
@@ -16,7 +16,7 @@ sites:
     url: https://wise-dev.hpa.ai
     method: GET
     followRedirects: true
-    ignoreSsl: true
+    insecure: true
     maxRedirects: 2
     headers:
       - "User-Agent: Mozilla/5.0"
