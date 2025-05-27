@@ -102,6 +102,7 @@ article:hover {
   box-shadow: var(--shadow-sm);
 }
 
+
 /* State colours */
 article.up        { border-left-color: var(--hpa-success); }
 article.down      { border-left-color: var(--hpa-danger);  }
