@@ -26,9 +26,9 @@ status-website:
   # cname: status.hpa.ai
   baseUrl: /hpa-uptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: WISE Uptime Monitor
-  introTitle: "**WISE** status and uptime dashboard"
-  introMessage: This dashboard shows the real-time availability of WISE services. Powered by [Upptime](https://github.com/upptime/upptime) and GitHub Actions.
+  name: HPA Uptime Monitor
+  introTitle: "**HPA** status and uptime dashboard"
+  introMessage: This dashboard shows the real-time availability of HPA services. Powered by [Upptime](https://github.com/upptime/upptime) and GitHub Actions.
   navbar:
     - title: Status
       href: /
