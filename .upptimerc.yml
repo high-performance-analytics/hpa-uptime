@@ -10,8 +10,7 @@ sites:
     ignoreSsl: true
     maxRedirects: 2
     headers:
-      - key: "User-Agent"
-        value: "Mozilla/5.0"
+      - "User-Agent: Mozilla/5.0"
 
   - name: WISE [Staging]
     url: https://wise-dev.hpa.ai
@@ -20,8 +19,7 @@ sites:
     ignoreSsl: true
     maxRedirects: 2
     headers:
-      - key: "User-Agent"
-        value: "Mozilla/5.0"
+      - "User-Agent: Mozilla/5.0"
 
   - name: Google
     url: https://www.google.com
