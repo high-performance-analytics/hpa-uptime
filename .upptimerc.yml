@@ -1,15 +1,12 @@
 owner: high-performance-analytics
 repo: hpa-uptime
 
-cron: "*/5 * * * *"
-
 sites:
 
   - name: WISE [Frontend]
     url: https://wise.hpa.ai
     method: GET
     followRedirects: true
-    insecure: true
     maxRedirects: 2
     headers:
       - "User-Agent: Mozilla/5.0"
@@ -18,7 +15,14 @@ sites:
     url: https://wise-api.hpa.ai/admin # TODO ENR: implement a /health endpoint that returns always 200 OK
     method: GET
     followRedirects: true
-    insecure: true
+    maxRedirects: 2
+    headers:
+      - "User-Agent: Mozilla/5.0"
+    
+  - name: HIVE [Backend]
+    url: https://hivewaste-api.hpa.ai/health/
+    method: GET
+    followRedirects: true
     maxRedirects: 2
     headers:
       - "User-Agent: Mozilla/5.0"
@@ -27,7 +31,6 @@ sites:
     url: https://hpa.ai
     method: GET
     followRedirects: true
-    insecure: true
     maxRedirects: 2
     headers:
       - "User-Agent: Mozilla/5.0"
