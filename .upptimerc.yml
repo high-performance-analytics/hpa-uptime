@@ -19,16 +19,8 @@ sites:
     headers:
       - "User-Agent: Mozilla/5.0"
     
-  - name: HIVE [Backend]
+  - name: HIVE Waste [Backend]
     url: https://hivewaste-api.hpa.ai/health/
-    method: GET
-    followRedirects: true
-    maxRedirects: 2
-    headers:
-      - "User-Agent: Mozilla/5.0"
-
-  - name: HPA
-    url: https://hpa.ai
     method: GET
     followRedirects: true
     maxRedirects: 2
