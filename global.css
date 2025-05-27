@@ -163,3 +163,8 @@ article .graph {
   filter: saturate(1.2);
   margin-top: 1rem;
 }
+
+/* Hide the GitHub button in the navbar */
+nav a[href="https://github.com/high-performance-analytics/hpa-uptime"] {
+  display: none !important;
+}
