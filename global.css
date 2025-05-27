@@ -144,21 +144,19 @@ article.down {
   border-left-color: var(--down-border-left-color) !important;
   color: var(--down-color-color);
 }
-article:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-sm);
+article.down-active {
+  background: var(--down-background-color);
+  border-color: var(--down-border-left-color);
+}
+article.degraded {
+  border-left-color: var(--degraded-border-left-color) !important;
+  color: var(--degraded-color-color);
+}
+article.up {
+  border-left-color: var(--up-border-left-color) !important;
+  color: var(--up-color-color);
 }
 
-
-/* State colours */
-article.up        { border-left-color: var(--hpa-success); }
-article.down      { border-left-color: var(--hpa-danger);  }
-article.degraded  { border-left-color: var(--hpa-warning); }
-
-/* Title + tag row */
-article .f h4 { margin: 0; font-weight: 600; }
-
-/* ───────────  Tags / Badges  ─────────── */
 .tag {
   color: var(--tag-color);
 }
