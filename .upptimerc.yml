@@ -14,7 +14,7 @@ sites:
 
   - name: WISE [Backend]
     slug: wise-backend
-    url: https://wise-api.hpa.ai/admin # TODO ENR: implement a /health endpoint that returns always 200 OK
+    url: https://wise-api.hpa.ai/hally/health
     icon: https://wise.hpa.ai/favicon.ico
     method: GET
     followRedirects: true
