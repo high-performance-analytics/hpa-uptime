@@ -1,32 +1,11 @@
-<!-- status-page/404.html -->
 <!doctype html>
 <meta charset="utf-8">
-<title>Redirecting…</title>
-
 <script>
-/**
- *  GitHub Pages can only serve real files. When a user requests something like
- *  “…/history/wise-frontend” (no trailing slash) the file doesn’t exist and
- *  Pages gives a 404.  We catch that here and send the browser back to the SPA
- *  router inside index.html.
- *
- *  Adjust `base` if you ever change `baseUrl:` in .upptimerc.yml
- *  (now it is “/hpa-uptime/”).
- */
-(function () {
-  var base = '/hpa-uptime/';                      // <- your status-website base
-  var path = location.pathname.replace(base, ''); // strip the base prefix
-  // Ensure a single trailing slash so “history/x” → “history/x/”
-  if (path.length && !path.endsWith('/')) path += '/';
-
-  var target = base + '#/' + path +
-               location.search + location.hash;   // preserve ?query and #hash
-  location.replace(target);                       // do the jump
-})();
+  /* Adjust if you ever change `baseUrl:` in .upptimerc.yml */
+  var base = '/hpa-uptime/';
+  var path = location.pathname.replace(base, '');
+  if (path && !path.endsWith('/')) path += '/';
+  location.replace(base + '#/' + path +
+                   location.search + location.hash);
 </script>
-
-<p>If you are not redirected automatically,
-   <a id="link" href="#">click here</a>.</p>
-<script>
-  document.getElementById('link').href = '/hpa-uptime/';
-</script>
+<p>Redirecting…</p>
