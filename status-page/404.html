@@ -1,11 +1,6 @@
-<!doctype html>
-<meta charset="utf-8">
-<script>
-  /* Adjust if you ever change `baseUrl:` in .upptimerc.yml */
-  var base = '/hpa-uptime/';
-  var path = location.pathname.replace(base, '');
-  if (path && !path.endsWith('/')) path += '/';
-  location.replace(base + '#/' + path +
-                   location.search + location.hash);
+<!doctype html><script>
+  var b='/hpa-uptime/';                   // ← match your baseUrl
+  var p=location.pathname.replace(b,'');
+  if(p && !p.endsWith('/')) p+='/';
+  location.replace(b+'#/'+p+location.search+location.hash);
 </script>
-<p>Redirecting…</p>
