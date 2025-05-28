@@ -43,3 +43,13 @@ status-website:
   favicon: https://www.hpa.ai/wp-content/uploads/2023/07/cropped-hpa-favicon-32x32.png
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+
+# Custom schedule for GitHub Actions
+workflowSchedule:
+  uptime: "*/30 * * * *"       # ← every 30 minutes
+  graphs: "0 0 * * *"          # default: once a day at midnight
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
