@@ -38,7 +38,7 @@ status-website:
   introMessage: This dashboard shows the real-time availability of HPA services. Powered by [Upptime](https://github.com/upptime/upptime) and GitHub Actions.
   links:
   - rel: stylesheet
-    href: https://high-performance-analytics.github.io/hpa-uptime/assets/custom.css
+    href: https://high-performance-analytics.github.io/hpa-uptime/custom.css
   favicon: https://www.hpa.ai/wp-content/uploads/2023/07/cropped-hpa-favicon-32x32.png
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
