@@ -36,6 +36,8 @@ status-website:
   name: HPA Uptime Monitor
   introTitle: "**HPA** status and uptime dashboard"
   introMessage: This dashboard shows the real-time availability of HPA services. Powered by [Upptime](https://github.com/upptime/upptime) and GitHub Actions.
-
+  links:
+    - rel: stylesheet
+      href: /assets/custom.css 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
