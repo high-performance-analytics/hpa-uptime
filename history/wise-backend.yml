@@ -1,7 +1,7 @@
-url: https://wise-api.hpa.ai/admin
+url: https://wise-api.hpa.ai/hally/health
 status: up
 code: 200
-responseTime: 698
-lastUpdated: 2025-05-28T14:30:00.698Z
+responseTime: 599
+lastUpdated: 2025-05-28T15:20:32.732Z
 startTime: 2025-05-28T14:29:59.998Z
 generator: Upptime <https://github.com/upptime/upptime>
