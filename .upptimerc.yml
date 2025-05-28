@@ -35,7 +35,7 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: status.hpa.ai
-  baseUrl: /hpa-uptime/
+  baseUrl: /hpa-uptime
   logoUrl: https://hpa.ai/wp-content/themes/wptheme/img/HPA-mathtoinnovate.svg
   name: HPA Uptime Monitor
   introTitle: "**HPA** status and uptime dashboard"
