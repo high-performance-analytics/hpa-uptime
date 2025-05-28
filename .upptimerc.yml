@@ -34,6 +34,7 @@ sites:
   - name: HIVE Waste [Backend]
     slug: hive-waste-backend
     url: https://hivewaste-api.hpa.ai/health/
+    icon: https://hivewaste.hpa.ai/favicon.ico
     method: GET
     followRedirects: true
     maxRedirects: 2
