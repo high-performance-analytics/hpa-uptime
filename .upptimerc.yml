@@ -4,6 +4,7 @@ repo: hpa-uptime
 sites:
 
   - name: WISE [Frontend]
+    slug: wise-frontend
     url: https://wise.hpa.ai
     method: GET
     followRedirects: true
@@ -12,6 +13,7 @@ sites:
       - "User-Agent: Mozilla/5.0"
 
   - name: WISE [Backend]
+    slug: wise-backend
     url: https://wise-api.hpa.ai/admin # TODO ENR: implement a /health endpoint that returns always 200 OK
     icon: https://wise.hpa.ai/favicon.ico
     method: GET
@@ -21,6 +23,7 @@ sites:
       - "User-Agent: Mozilla/5.0"
     
   - name: HIVE Waste [Backend]
+    slug: hive-waste-backend
     url: https://hivewaste-api.hpa.ai/health/
     method: GET
     followRedirects: true
