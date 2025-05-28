@@ -48,7 +48,7 @@ status-website:
   baseUrl: /hpa-uptime
   logoUrl: https://hpa.ai/wp-content/themes/wptheme/img/HPA-mathtoinnovate.svg
   name: HPA Uptime Monitor
-  introTitle: "HPA services status and uptime dashboard"
+  introTitle: "**HPA services status and uptime dashboard**"
   introMessage: This dashboard shows the real-time availability of HPA services.
   links:
   - rel: stylesheet
