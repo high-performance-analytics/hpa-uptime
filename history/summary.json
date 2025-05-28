@@ -5,19 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/wise.hpa.ai.ico",
     "slug": "wise-frontend",
     "status": "up",
-    "uptime": "37.84%",
-    "uptimeDay": "37.84%",
-    "uptimeWeek": "37.84%",
-    "uptimeMonth": "37.84%",
-    "uptimeYear": "37.84%",
-    "time": 476,
-    "timeDay": 476,
-    "timeWeek": 476,
-    "timeMonth": 476,
-    "timeYear": 476,
-    "dailyMinutesDown": {
-      "2025-05-27": 44
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 472,
+    "timeDay": 462,
+    "timeWeek": 472,
+    "timeMonth": 472,
+    "timeYear": 472,
+    "dailyMinutesDown": {}
   },
   {
     "name": "WISE [Backend]",
@@ -30,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1512,
-    "timeDay": 1512,
-    "timeWeek": 1512,
-    "timeMonth": 1512,
-    "timeYear": 1512,
+    "time": 1483,
+    "timeDay": 1573,
+    "timeWeek": 1483,
+    "timeMonth": 1483,
+    "timeYear": 1483,
     "dailyMinutesDown": {}
   },
   {
@@ -48,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 613,
-    "timeDay": 613,
-    "timeWeek": 613,
-    "timeMonth": 613,
-    "timeYear": 613,
+    "time": 583,
+    "timeDay": 583,
+    "timeWeek": 583,
+    "timeMonth": 583,
+    "timeYear": 583,
     "dailyMinutesDown": {}
   },
   {
@@ -66,11 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 676,
-    "timeDay": 676,
-    "timeWeek": 676,
-    "timeMonth": 676,
-    "timeYear": 676,
+    "time": 675,
+    "timeDay": 675,
+    "timeWeek": 675,
+    "timeMonth": 675,
+    "timeYear": 675,
     "dailyMinutesDown": {}
   }
 ]
