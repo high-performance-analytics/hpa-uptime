@@ -104,7 +104,13 @@ article:hover {
 
 /* State colours */
 article.up        { border-left-color: var(--hpa-success); }
-article.down      { border-left-color: var(--hpa-danger);  }
+article.down {
+  background-color: #fbeaea; /* Light red background for contrast */
+  color: #600; /* Dark red text for readability */
+}
+article.down a {
+  color: #0066cc; /* Ensure links are visible on light background */
+}
 article.degraded  { border-left-color: var(--hpa-warning); }
 
 /* Title + tag row */
