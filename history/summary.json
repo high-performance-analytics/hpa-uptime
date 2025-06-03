@@ -12,7 +12,7 @@
     "uptimeYear": "100.00%",
     "time": 455,
     "timeDay": 401,
-    "timeWeek": 455,
+    "timeWeek": 446,
     "timeMonth": 455,
     "timeYear": 455,
     "dailyMinutesDown": {}
@@ -30,7 +30,7 @@
     "uptimeYear": "100.00%",
     "time": 1301,
     "timeDay": 758,
-    "timeWeek": 1301,
+    "timeWeek": 1351,
     "timeMonth": 1301,
     "timeYear": 1301,
     "dailyMinutesDown": {}
@@ -40,9 +40,9 @@
     "url": "https://hivewaste.hpa.ai",
     "icon": "https://icons.duckduckgo.com/ip3/hivewaste.hpa.ai.ico",
     "slug": "hive-waste-frontend",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -51,16 +51,18 @@
     "timeWeek": 483,
     "timeMonth": 483,
     "timeYear": 483,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-06-03": 0
+    }
   },
   {
     "name": "HIVE Waste [Backend]",
     "url": "https://hivewaste-api.hpa.ai/health/",
     "icon": "https://hivewaste.hpa.ai/favicon.ico",
     "slug": "hive-waste-backend",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -69,6 +71,8 @@
     "timeWeek": 645,
     "timeMonth": 645,
     "timeYear": 645,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-06-03": 0
+    }
   }
 ]
