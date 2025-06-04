@@ -169,3 +169,12 @@ article .graph {
   filter: saturate(1.2);
   margin-top: 1rem;
 }
+
+/* ───────────  Logo Customizations  ─────────── */
+.logo {
+  padding: 1rem;
+}
+
+.logo img {
+  border-radius: 0;
+}
