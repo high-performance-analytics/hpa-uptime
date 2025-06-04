@@ -45,7 +45,7 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: status.hpa.ai
+  # cname: status.hpa.ai # TODO custom domain: uncomment
   baseUrl: /hpa-uptime
   logoUrl: https://hpa.ai/wp-content/themes/wptheme/img/HPA-mathtoinnovate.svg
   name: HPA Uptime Monitor
@@ -53,7 +53,7 @@ status-website:
   introMessage: This dashboard shows the real-time availability of HPA services.
   links:
   - rel: stylesheet
-    href: https://high-performance-analytics.github.io/hpa-uptime/custom.css
+    href: https://high-performance-analytics.github.io/hpa-uptime/custom.css # TODO custom domain: change domain
   favicon: https://www.hpa.ai/wp-content/uploads/2023/07/cropped-hpa-favicon-32x32.png
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
