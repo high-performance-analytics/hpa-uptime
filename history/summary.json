@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 455,
-    "timeDay": 401,
-    "timeWeek": 446,
-    "timeMonth": 455,
-    "timeYear": 455,
+    "time": 452,
+    "timeDay": 406,
+    "timeWeek": 421,
+    "timeMonth": 452,
+    "timeYear": 452,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1301,
-    "timeDay": 758,
-    "timeWeek": 1351,
-    "timeMonth": 1301,
-    "timeYear": 1301,
+    "time": 1261,
+    "timeDay": 573,
+    "timeWeek": 753,
+    "timeMonth": 1261,
+    "timeYear": 1261,
     "dailyMinutesDown": {}
   },
   {
@@ -40,19 +40,20 @@
     "url": "https://hivewaste.hpa.ai",
     "icon": "https://icons.duckduckgo.com/ip3/hivewaste.hpa.ai.ico",
     "slug": "hive-waste-frontend",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 483,
-    "timeDay": 794,
-    "timeWeek": 483,
-    "timeMonth": 483,
-    "timeYear": 483,
+    "status": "up",
+    "uptime": "88.53%",
+    "uptimeDay": "22.50%",
+    "uptimeWeek": "88.53%",
+    "uptimeMonth": "88.53%",
+    "uptimeYear": "88.53%",
+    "time": 496,
+    "timeDay": 649,
+    "timeWeek": 496,
+    "timeMonth": 496,
+    "timeYear": 496,
     "dailyMinutesDown": {
-      "2025-06-03": 0
+      "2025-06-04": 519,
+      "2025-06-03": 597
     }
   },
   {
@@ -61,18 +62,19 @@
     "icon": "https://hivewaste.hpa.ai/favicon.ico",
     "slug": "hive-waste-backend",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "88.53%",
+    "uptimeDay": "22.50%",
+    "uptimeWeek": "88.53%",
+    "uptimeMonth": "88.53%",
+    "uptimeYear": "88.53%",
     "time": 645,
-    "timeDay": 498,
-    "timeWeek": 645,
+    "timeDay": 0,
+    "timeWeek": 640,
     "timeMonth": 645,
     "timeYear": 645,
     "dailyMinutesDown": {
-      "2025-06-03": 0
+      "2025-06-04": 519,
+      "2025-06-03": 597
     }
   }
 ]
