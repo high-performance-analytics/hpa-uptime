@@ -3,7 +3,7 @@ repo: hpa-uptime
 
 sites:
 
-  - name: WISE [Frontend]
+  - name: WISE Webapp
     slug: wise-frontend
     url: https://wise.hpa.ai
     method: GET
@@ -12,7 +12,7 @@ sites:
     headers:
       - "User-Agent: Mozilla/5.0"
 
-  - name: WISE [Backend]
+  - name: WISE APIs
     slug: wise-backend
     url: https://wise-api.hpa.ai/hally/health
     icon: https://wise.hpa.ai/favicon.ico
@@ -22,7 +22,7 @@ sites:
     headers:
       - "User-Agent: Mozilla/5.0"
   
-  - name: HIVE Waste [Frontend]
+  - name: HIVE Waste Webapp
     slug: hive-waste-frontend
     url: https://hivewaste.hpa.ai
     icon: https://hivewaste.hpa.ai/favicon.ico
@@ -32,7 +32,7 @@ sites:
     headers:
       - "User-Agent: Mozilla/5.0"
     
-  - name: HIVE Waste [Backend]
+  - name: HIVE Waste APIs
     slug: hive-waste-backend
     url: https://hivewaste-api.hpa.ai/health/
     icon: https://hivewaste.hpa.ai/favicon.ico
