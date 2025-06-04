@@ -25,6 +25,7 @@ sites:
   - name: HIVE Waste [Frontend]
     slug: hive-waste-frontend
     url: https://hivewaste.hpa.ai
+    icon: https://hivewaste.hpa.ai/favicon.ico
     method: GET
     followRedirects: true
     maxRedirects: 2
