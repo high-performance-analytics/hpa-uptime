@@ -11,8 +11,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 450,
-    "timeDay": 410,
-    "timeWeek": 400,
+    "timeDay": 419,
+    "timeWeek": 404,
     "timeMonth": 450,
     "timeYear": 450,
     "dailyMinutesDown": {}
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1221,
-    "timeDay": 519,
-    "timeWeek": 638,
-    "timeMonth": 1221,
-    "timeYear": 1221,
+    "time": 1209,
+    "timeDay": 564,
+    "timeWeek": 646,
+    "timeMonth": 1209,
+    "timeYear": 1209,
     "dailyMinutesDown": {}
   },
   {
@@ -41,17 +41,20 @@
     "icon": "https://hivewaste.hpa.ai/favicon.ico",
     "slug": "hive-waste-frontend",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 505,
-    "timeDay": 587,
-    "timeWeek": 487,
-    "timeMonth": 505,
-    "timeYear": 505,
-    "dailyMinutesDown": {}
+    "uptime": "88.80%",
+    "uptimeDay": "22.50%",
+    "uptimeWeek": "88.80%",
+    "uptimeMonth": "88.80%",
+    "uptimeYear": "88.80%",
+    "time": 489,
+    "timeDay": 508,
+    "timeWeek": 470,
+    "timeMonth": 489,
+    "timeYear": 489,
+    "dailyMinutesDown": {
+      "2025-06-04": 519,
+      "2025-06-03": 597
+    }
   },
   {
     "name": "HIVE Waste [Backend]",
@@ -64,11 +67,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 638,
-    "timeDay": 528,
+    "time": 635,
+    "timeDay": 540,
     "timeWeek": 561,
-    "timeMonth": 638,
-    "timeYear": 638,
+    "timeMonth": 635,
+    "timeYear": 635,
     "dailyMinutesDown": {}
   }
 ]
