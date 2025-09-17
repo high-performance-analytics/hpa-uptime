@@ -22,18 +22,20 @@
     "url": "https://wise-api.hpa.ai/hally/health",
     "icon": "https://wise.hpa.ai/favicon.ico",
     "slug": "wise-backend",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 885,
-    "timeDay": 824,
+    "timeDay": 716,
     "timeWeek": 756,
     "timeMonth": 820,
     "timeYear": 885,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-09-17": 0
+    }
   },
   {
     "name": "HIVE Waste Webapp",
