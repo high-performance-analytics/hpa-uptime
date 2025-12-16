@@ -1,12 +1,23 @@
-- name: Send Adaptive Card to Teams (test)
-  env:
-    TEAMS_WEBHOOK_URL: ${{ secrets.NOTIFICATION_TEAMS_WEBHOOK_URL }}
-  run: |
-    curl -i -X POST \
-      -H "Content-Type: application/json" \
-      -d '{
-        "type":"AdaptiveCard",
-        "version":"1.4",
-        "body":[{"type":"TextBlock","text":"✅ Test webhook from GitHub Actions","wrap":true}]
-      }' \
-      "$TEAMS_WEBHOOK_URL"
+name: Test Teams Webhook
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-webhook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Adaptive Card to Teams (test)
+        env:
+          TEAMS_WEBHOOK_URL: ${{ secrets.NOTIFICATION_TEAMS_WEBHOOK_URL }}
+        run: |
+          curl -i -X POST \
+            -H "Content-Type: application/json" \
+            -d '{
+              "type":"AdaptiveCard",
+              "version":"1.4",
+              "body":[
+                {"type":"TextBlock","text":"✅ Test webhook from GitHub Actions","wrap":true}
+              ]
+            }' \
+            "$TEAMS_WEBHOOK_URL"
