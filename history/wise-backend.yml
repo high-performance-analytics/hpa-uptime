@@ -1,7 +1,7 @@
 url: https://wise-api.hpa.ai/hally/health
-status: down
-code: 502
-responseTime: 872
-lastUpdated: 2026-02-24T08:45:21.990Z
+status: up
+code: 200
+responseTime: 547
+lastUpdated: 2026-02-24T09:16:20.377Z
 startTime: 2025-05-28T14:29:59.998Z
 generator: Upptime <https://github.com/upptime/upptime>
