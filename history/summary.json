@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 521,
-    "timeDay": 375,
-    "timeWeek": 322,
-    "timeMonth": 400,
-    "timeYear": 529,
+    "time": 520,
+    "timeDay": 188,
+    "timeWeek": 305,
+    "timeMonth": 391,
+    "timeYear": 528,
     "dailyMinutesDown": {}
   },
   {
@@ -22,19 +22,19 @@
     "url": "https://wise-api.hpa.ai/hally/health",
     "icon": "https://wise.hpa.ai/favicon.ico",
     "slug": "wise-backend",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "98.04%",
+    "uptimeWeek": "99.72%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.99%",
     "time": 783,
-    "timeDay": 501,
-    "timeWeek": 650,
-    "timeMonth": 696,
+    "timeDay": 658,
+    "timeWeek": 651,
+    "timeMonth": 691,
     "timeYear": 738,
     "dailyMinutesDown": {
-      "2026-06-10": 0
+      "2026-06-10": 28
     }
   },
   {
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 472,
-    "timeDay": 569,
-    "timeWeek": 392,
-    "timeMonth": 572,
-    "timeYear": 471,
+    "time": 473,
+    "timeDay": 634,
+    "timeWeek": 422,
+    "timeMonth": 573,
+    "timeYear": 472,
     "dailyMinutesDown": {}
   },
   {
@@ -67,9 +67,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 697,
-    "timeDay": 478,
-    "timeWeek": 554,
-    "timeMonth": 630,
+    "timeDay": 669,
+    "timeWeek": 568,
+    "timeMonth": 633,
     "timeYear": 696,
     "dailyMinutesDown": {}
   }
